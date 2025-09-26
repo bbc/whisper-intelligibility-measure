@@ -1,0 +1,10 @@
+matplotlib==3.10.0
+numpy==2.2.2
+omegaconf==2.3.0
+pyzmq==26.2.1
+scikit_learn==1.6.1
+scipy==1.15.1
+soundfile==0.13.1
+speechbrain==1.0.2
+torch==2.4.1
+transformers==4.48.0

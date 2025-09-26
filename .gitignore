@@ -1,0 +1,6 @@
+[Bb]uild*/
+deps/
+whisper/service-simulator/node_modules/
+*.pt
+__pycache__/
+*.pyc

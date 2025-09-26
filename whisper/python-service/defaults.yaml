@@ -1,0 +1,9 @@
+model_path: "models" # Relative path to models
+feature_extractor: "LSTM_layers-1234_10_0.05253561845125809_opt.pt"
+regressor: "LSTM_layers-1234_10_0.05253561845125809_model.pt"
+inference_length: 480000 # Chunk length required for model (30s, 16kHz)
+device: "cpu" # Device torch should use
+pool_size: 3 # Num model workers - leave undefined for system default
+max_queue: 3 # Max requests to have in queue before rejecting
+port: 12345 # Listen port for service
+#ip_address: 127.0.0.1 # Used by audio_broadcaster if service is not running on local machine
