@@ -61,6 +61,9 @@ The message structure of a response is stringified JSON. A successful response w
 ```
 Should a response need to convey an error state, it will contain an `error` field. This should contain a string description of the error, but the very presence of an `error` field regardless of value is an indication of error state. `request_id` and `result` may or may not be present in this structure depending on the circumstances of the error.
 
+### Attribution
+This project uses a [model architecture](https://claritychallenge.org/clarity2023-workshop/papers/Clarity_2023_CPC2_paper_mogridge.pdf) developed as part of the [2nd Clarity Prediction Challenge](https://claritychallenge.org/docs/cpc2/cpc2_intro) and was presented at the [2023 Clarity Challenge Workshop](https://claritychallenge.org/clarity2023-workshop/). The project page can be found [here](https://github.com/RhiM1/CPC2_challenge).
+
 ### License
 
 Please see the separate LICENSE.md for license details, in particular please note the requirements of the JUCE and Steinberg licensing agreements before building or distributing this project.
