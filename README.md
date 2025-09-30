@@ -8,7 +8,7 @@ The service running the model and providing the API is written in Python. The VS
 
 ## Plugin
 
-Build using CMake from the `CMakeLists.txt` script in the root directory of the repository.  Tested working on Windows 11 x86-64, VS 2022, although other platforms and dev environments should be supported. GitHub Actions is configured to build for both macOS and Ubuntu.
+Build using CMake from the `CMakeLists.txt` script in the root directory of the repository.  Tested working on Windows 11 x86-64, VS 2022, although other platforms and dev environments should be supported. 
 
 The CMake script will download the JUCE, googletest and ZMQ dependencies automatically using CPM for the plugin. For ZMQ, we are using libzmq with the cppzmq wrapper.
 
